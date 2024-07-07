@@ -41,11 +41,11 @@ const Contact = () => {
         <input type="text" className="field" placeholder="Enter Your Name" name='name' required/>
       </div>
       <div className="input-box">
-        {/* <label classname="label-special"><strong>Email Address</strong></label> */}
+        <label classname="label-special"><strong>Email Address</strong></label>
         <input type="email" className="field" placeholder="Enter Your email" name = 'email'required/>
       </div>
       <div className="input-box">
-        {/* <label classname="label-special"><strong>Your Message</strong></label> */}
+        <label classname="label-special"><strong>Your Message</strong></label>
         <textarea name= "message" id ="" className="field mess" placeholder="Enter Your Message" required></textarea>
      </div>
      <button type="submit">Send Message</button>
@@ -55,23 +55,7 @@ const Contact = () => {
                                   <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                                   <li><a href="https://twitter.com/intent/tweet"><i class="fab fa-twitter"></i></a></li>
                                </div>
-    <div class="contact_info_sec">
-                        <h4>Contact Info</h4>
-                        <div class="d-flex info_single align-items-center">
-                            <i class="fas fa-headset"></i>
-                            <span>+91 8009 054294</span>
-                        </div>
-                        <div class="d-flex info_single align-items-center">
-                            <i class="fas fa-envelope-open-text"></i>
-                            <span>chitkarauniversity@gmail.com</span>
-                        </div>
-                        <div class="d-flex info_single align-items-center">
-                            <i class="fas fa-map-marked-alt"></i>
-                            <span>
-                              "Get in touch with us for all things about events - whether you have questions, feedback, or just want to stay connected!"</span>
-                        </div>
-        
-                    </div>
+   
    </section>
    
   )
