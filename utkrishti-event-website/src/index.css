@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+    background-color: black;
+}
+/* Add this CSS to App.css */
+.star {
+	animation: twinkle 2s infinite;
+  }
+  
+  @keyframes twinkle {
+	0%, 100% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0.5;
+	}
+  }
+  @keyframes marquee {
+	0% {
+	  transform: translateX(800%);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }
+  
+  .animate-marquee {
+	display: inline-block;
+	animation: marquee 10s linear infinite;
+	font-size: 3rem; /* Adjust font size as needed */
+	font-weight: bold; /* Make text bold */
+  }
+  .past-events-section {
+	margin-top: 3rem; /* Adjust spacing below moving UTKRISHTI */
+  }
+  
+  .past-events-section .grid {
+	padding: 2rem;
+  }
+  
+  .past-events-section .grid > div {
+	border-radius: 16px;
+	overflow: hidden;
+  }
+  
+  .past-events-section .grid > div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  .past-events-section h2 {
+	color: white; /* Set the color of the heading to white */
+  }
+  /* Example CSS */
+footer {
+	text-align: center;
+  }
+  
+  footer p {
+	display: inline-block; /* or inline */
+	margin: 0 10px; /* Adjust margin as needed */
+  }
+  .element {
+	cursor: auto; 
+  }
+  @keyframes spin {
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  
